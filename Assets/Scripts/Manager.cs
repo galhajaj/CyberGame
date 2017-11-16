@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
@@ -16,8 +17,16 @@ public class Manager : MonoBehaviour
 	
 	void Update ()
     {
-        // TODO: move to main scene
-        if (Input.GetKey(KeyCode.Escape))
-            Application.Quit();
+ 
 	}
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void GoToScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
