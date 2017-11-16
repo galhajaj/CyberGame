@@ -901,6 +901,21 @@ Prefab:
       propertyPath: m_Name
       value: Computer (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 212155918682863004, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.19117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 212155918682863004, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212155918682863004, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.19675452
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
   m_IsPrefabParent: 0
@@ -951,6 +966,21 @@ Prefab:
     - target: {fileID: 1751331885515362, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
       propertyPath: m_Name
       value: Computer (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 212155918682863004, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212155918682863004, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.4705882
+      objectReference: {fileID: 0}
+    - target: {fileID: 212155918682863004, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.4705882
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
