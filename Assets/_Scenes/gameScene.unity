@@ -304,6 +304,11 @@ Prefab:
       propertyPath: m_Name
       value: Computer (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 114260728826064786, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: name
+      value: asd
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
   m_IsPrefabParent: 0
@@ -405,6 +410,11 @@ Prefab:
     - target: {fileID: 1751331885515362, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
       propertyPath: m_Name
       value: Computer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114260728826064786, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: name
+      value: qqq
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
@@ -752,6 +762,11 @@ Prefab:
       propertyPath: m_Name
       value: Computer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114260728826064786, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: name
+      value: eee
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
   m_IsPrefabParent: 0
@@ -850,6 +865,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114260728826064786, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: name
+      value: rrr
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
   m_IsPrefabParent: 0
@@ -901,6 +921,11 @@ Prefab:
       propertyPath: m_Name
       value: Computer (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114260728826064786, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: name
+      value: www
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
   m_IsPrefabParent: 0
@@ -951,6 +976,11 @@ Prefab:
     - target: {fileID: 1751331885515362, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}
       propertyPath: m_Name
       value: Computer (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114260728826064786, guid: 4dcf67e914b42ce47901ad1e5fb890f4,
+        type: 2}
+      propertyPath: name
+      value: dsa
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4dcf67e914b42ce47901ad1e5fb890f4, type: 2}

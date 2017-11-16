@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
+    void Awake()
+    {
+        Physics2D.queriesHitTriggers = true; //needed so the objects will get notification where the mouse clicks on them
+    }
 
 	void Start ()
     {
