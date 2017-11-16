@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: CyberGame, Configuration: Debug Any CPU ------
-1>  CyberGame -> C:\Users\user4\Documents\CyberGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll.dll
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
