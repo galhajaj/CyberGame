@@ -12,6 +12,8 @@ public class Manager : MonoBehaviour
 	
 	void Update ()
     {
-		
+        // TODO: move to main scene
+        if (Input.GetKey(KeyCode.Escape))
+            Application.Quit();
 	}
 }
