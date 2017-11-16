@@ -17,6 +17,6 @@ public class Computer : MonoBehaviour {
 
     void OnMouseDown()
     {
-        Debug.Log("clicked Computer " + name);
+        Debug.Log("clicked Computer ");
     }
 }
