@@ -212,7 +212,7 @@ Prefab:
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000005722046
       objectReference: {fileID: 0}
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
@@ -410,7 +410,7 @@ Prefab:
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000005722046
       objectReference: {fileID: 0}
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
@@ -652,7 +652,7 @@ Prefab:
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000005722046
       objectReference: {fileID: 0}
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
@@ -998,7 +998,7 @@ Prefab:
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000005722046
       objectReference: {fileID: 0}
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
@@ -1161,7 +1161,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c31e0b72afdf6334abcd84313ff1a3be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 652879d542809de4fa0534fdba779732, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1190,7 +1190,7 @@ Prefab:
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.000005722046
       objectReference: {fileID: 0}
     - target: {fileID: 224620979494326846, guid: 4745ccd8d9093fa4494047f7c15e4496,
         type: 2}
@@ -1383,7 +1383,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: roomScene
+          m_StringArgument: roomStartScene
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
