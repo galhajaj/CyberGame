@@ -74,7 +74,9 @@ public class CameraManager : MonoBehaviour
             Debug.LogError("No such room: " + roomName);
         }
 
-        transform.position = Target.transform.position;
+        transform.position = new Vector3(Target.transform.position.x, Target.transform.position.y, transform.position.z);
+
+        Target = null;
     }
     // ================================================================================================ //
 }
