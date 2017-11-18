@@ -9,23 +9,5 @@ EditorBuildSettings:
     path: Assets/_Scenes/mainScene.unity
     guid: 34cda56f9642df042a7240edaf5f94a4
   - enabled: 1
-    path: Assets/_Scenes/roomStartScene.unity
-    guid: 3e720e439af0eb941b215f899dde67a7
-  - enabled: 1
-    path: Assets/_Scenes/roomStairsScene.unity
-    guid: 17a4344bf513aed44b873c68f3056fb7
-  - enabled: 1
-    path: Assets/_Scenes/roomLadderScene.unity
-    guid: b0b3fffd89c2f7d4db1a23fe2c40ab3e
-  - enabled: 1
-    path: Assets/_Scenes/roomRopeScene.unity
-    guid: 5c613ee34d823ea4f93bca70665ca9a4
-  - enabled: 1
-    path: Assets/_Scenes/roomRoofScene.unity
-    guid: ee083781f30abbd4f902bf70937ca392
-  - enabled: 1
-    path: Assets/_Scenes/roomDownStairsScene.unity
-    guid: 38ccd004df060e942bcf44619b161ae6
-  - enabled: 1
-    path: Assets/_Scenes/roomTreeScene.unity
-    guid: dac682c0c2784d14f93ec13f62d95297
+    path: Assets/_Scenes/gameScene.unity
+    guid: f048c59577d9d8048bc2edcdc0b54335
