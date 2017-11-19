@@ -6,6 +6,10 @@ public class GlobalData : MonoBehaviour
 {
     public static GlobalData Instance = null;
 
+    public GameObject OrangeDye;
+    public GameObject GreenDye;
+    public GameObject PurpleDye;
+
     void Awake()
     {
         if (Instance == null)

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Move2RoomWhenClicked : MonoBehaviour
 {
     public string RoomName;
+    public bool IsImmediate = false;
 
 	void Start ()
     {
@@ -18,6 +19,12 @@ public class Move2RoomWhenClicked : MonoBehaviour
 
     private void OnMouseDown()
     {
-        CameraManager.Instance.MoveToRoom(RoomName);
+        if (ItemsManager.Instance.CurrentItem != "")
+            return;
+
+        if (!IsImmediate)
+            CameraManager.Instance.MoveToRoom(RoomName);
+        else
+            CameraManager.Instance.MoveToRoomImmediately(RoomName);
     }
 }
