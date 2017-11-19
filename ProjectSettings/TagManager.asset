@@ -6,6 +6,9 @@ TagManager:
   tags:
   - DragonKey
   - Rope
+  - Potion
+  - Hammer
+  - Chest
   layers:
   - Default
   - TransparentFX
