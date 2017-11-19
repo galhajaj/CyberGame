@@ -11,7 +11,12 @@ public class gameNomogram : MonoBehaviour {
 	void Start () {
         _isBlack = false;
         _sprite = GetComponent<SpriteRenderer>();
+<<<<<<< HEAD
         _manager = GameObject.Find("Squares").GetComponent<gameNonogramManager>();
+=======
+
+        _manager = transform.GetComponentInParent<gameNonogramManager>();
+>>>>>>> parent of 76010bb... added games to gamescene
     }
 	
 	// Update is called once per frame
