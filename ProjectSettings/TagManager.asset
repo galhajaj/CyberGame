@@ -10,6 +10,9 @@ TagManager:
   - Hammer
   - Chest
   - Lock
+  - RedFruit
+  - BlueFruit
+  - YellowFruit
   layers:
   - Default
   - TransparentFX
