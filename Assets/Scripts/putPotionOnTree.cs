@@ -34,7 +34,7 @@ public class putPotionOnTree : MonoBehaviour
             FruitsOnTree.SetActive(true);
         }
 
-        if (ItemsManager.Instance.CurrentItem == "Hammer" && !_isFruitsOnGround && _isFruitsOnTree)
+        if (ItemsManager.Instance.CurrentItem == "Hammer" && !_isFruitsOnGround/* && _isFruitsOnTree*/)
         {
             _isFruitsOnGround = true;
             ItemsManager.Instance.UnselectAllItems();

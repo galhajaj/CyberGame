@@ -60,4 +60,17 @@ public class ItemsManager : MonoBehaviour
             }
         }
     }
+
+    public bool IsItemExists(string itemName)
+    {
+        for (int i = 0; i < this.transform.childCount; ++i)
+        {
+            Transform item = this.transform.GetChild(i);
+            if (item.tag == itemName)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }

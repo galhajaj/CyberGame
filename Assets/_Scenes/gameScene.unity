@@ -1984,6 +1984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 836824496}
   - component: {fileID: 836824495}
+  - component: {fileID: 836824497}
   m_Layer: 0
   m_Name: ExitDoor
   m_TagString: Untagged
@@ -2048,6 +2049,31 @@ Transform:
   m_Father: {fileID: 1338473950}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &836824497
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836824494}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011187039, y: 0.6078253}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.78, y: 1.85}
+    newSize: {x: 0.77, y: 1.83}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2355674, y: 0.32111406}
+  m_EdgeRadius: 0
 --- !u!1 &868332237
 GameObject:
   m_ObjectHideFlags: 0
@@ -5441,6 +5467,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2012971171}
+  - component: {fileID: 2012971172}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -5461,3 +5488,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2012971172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2012971170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdccd5b62616e14f9fa4cb30ac4d0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrangeDye: {fileID: 1868955583210036, guid: 6c452233b9a49764385cb25b2a0b0a03, type: 2}
+  GreenDye: {fileID: 1018072619907758, guid: 53d69b05ae935734082de046a02b34b5, type: 2}
+  PurpleDye: {fileID: 1366447715020408, guid: a4d9a4d4890b3fb47975f6a78f28dbcd, type: 2}
+  IsDoorOpen_Start2Outside: 0
+  IsDoorOpen_Start2Ladder: 0
+  IsDoorOpen_Start2Stairs: 0
+  IsRopeTaken: 0
+  IsRopeOnLadder: 0

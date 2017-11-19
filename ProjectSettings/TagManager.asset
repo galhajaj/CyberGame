@@ -13,6 +13,9 @@ TagManager:
   - RedFruit
   - BlueFruit
   - YellowFruit
+  - OrangeDye
+  - GreenDye
+  - PurpleDye
   layers:
   - Default
   - TransparentFX
