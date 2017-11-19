@@ -64,7 +64,7 @@ public class BullEntry : MonoBehaviour {
         {
             if (result[i] == 0)
             {
-                transform.Find(feedback[currentFeedback]).GetComponent<SpriteRenderer>().sprite = Miss;
+                Destroy(transform.Find(feedback[currentFeedback]).gameObject);
                 currentFeedback++;
             }
         }

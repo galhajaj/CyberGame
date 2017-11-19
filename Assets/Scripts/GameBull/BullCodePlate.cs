@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BullCodePlate : MonoBehaviour {
 
-    const int MAX_TRIES = 13;
+    const int MAX_TRIES = 20;
 
     int[] _digits = new int[4];
     private BullResultsManager _bullResultScript;
