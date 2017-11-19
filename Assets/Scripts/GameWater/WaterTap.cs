@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WaterTap : MonoBehaviour {
 
+    public bool _active;
     const float TIME_TO_POUR = 2;
 
     public Sprite TAP_CLOSED;
@@ -39,6 +40,7 @@ public class WaterTap : MonoBehaviour {
 
     public void Init()
     {
+        _active = true;
         _isPourWater = false;
         _timeToPour = TIME_TO_POUR;
         gameObject.SetActive(true);
@@ -47,6 +49,8 @@ public class WaterTap : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         _isPourWater = true;
         _sprite.sprite = TAP_OPEN;
         _manager.ObjectClicked("tap");

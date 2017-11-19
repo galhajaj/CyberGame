@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class BullArrowPressed : MonoBehaviour {
     public bool IsUp;
+    public bool _active;
 	// Use this for initialization
 	void Start () {
+        _active = true;
 	}
 	
 	// Update is called once per frame
@@ -15,6 +17,8 @@ public class BullArrowPressed : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         Debug.Log("clicked");
         ((Digit)transform.parent.GetComponentInChildren<Digit>()).ChangeDigit(IsUp);
     }

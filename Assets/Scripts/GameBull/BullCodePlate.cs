@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class BullCodePlate : MonoBehaviour {
 
-    const int MAX_TRIES = 20;
+    public GameObject Door;
+    public GameObject HotSpot;
+
+    const int MAX_TRIES = 10;
 
     int[] _digits = new int[4];
     private BullResultsManager _bullResultScript;
@@ -73,7 +76,8 @@ public class BullCodePlate : MonoBehaviour {
 
     private void Solved()
     {
-        //
+        HotSpot.SetActive(true);
+        Door.SetActive(false);
     }
 
     private void WrongGuess(int[] guess, int[] guessResult)
@@ -91,9 +95,9 @@ public class BullCodePlate : MonoBehaviour {
     {
         _tries = 0;
 
-        _digits[0] = Random.Range(0,10);
-        _digits[1] = Random.Range(0,10);
-        _digits[2] = Random.Range(0,10);
-        _digits[3] = Random.Range(0,10);
+        _digits[0] = Random.Range(0,6);//_digits[0] = Random.Range(0,10);
+        _digits[1] = Random.Range(0,6);//_digits[1] = Random.Range(0,10);
+        _digits[2] = Random.Range(0,6);//_digits[2] = Random.Range(0,10);
+        _digits[3] = Random.Range(0,6);//_digits[3] = Random.Range(0,10);
     }
 }

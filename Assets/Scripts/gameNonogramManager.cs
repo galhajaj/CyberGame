@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class gameNonogramManager : MonoBehaviour {
 
+    public GameObject Door;
+    public GameObject HotSpot;
+
     bool[] _answer;
     bool[] _current;
 
@@ -36,8 +39,23 @@ public class gameNonogramManager : MonoBehaviour {
         Debug.Log(num.ToString());
         _current[num] = !_current[num];
         if (Validate())
-            Debug.Log("SUCCESS");
+            Success();
     }
+
+    void Success()
+    {
+        Door.SetActive(false);
+        HotSpot.SetActive(true);
+        gameNomogram[] allObjs = GetComponentsInChildren<gameNomogram>();
+        for (int i = 0; i < allObjs.Length; i++)
+        {
+            SpriteRenderer spr = allObjs[i].gameObject.GetComponent<SpriteRenderer>();
+            if (spr.color == Color.black)
+                spr.color = Color.green;
+            allObjs[i]._active = false;
+        }
+    }
+
     bool Validate()
     {
         for (int i = 0; i < 25; ++i)

@@ -41,13 +41,13 @@ public class Digit : MonoBehaviour {
         {
             _currentDigit -= 1;
         }
-        if (_currentDigit == 10)
+        if (_currentDigit == 6)//if (_currentDigit == 10)
         {
             _currentDigit = 0;
         }
         if (_currentDigit == -1)
         {
-            _currentDigit = 9;
+            _currentDigit = 5;//_currentDigit = 9;
         }
         setTexture(_currentDigit);
     }

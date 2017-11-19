@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WaterEyes : MonoBehaviour {
 
+    public bool _active;
     GameWater _manager;
     Sprite _sprite;
 
@@ -25,6 +26,8 @@ public class WaterEyes : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         _isMoving = true;
         _manager.ObjectClicked("eyes");
         //        _manager.
@@ -32,6 +35,7 @@ public class WaterEyes : MonoBehaviour {
 
     public void Init()
     {
+        _active = true;
         _isMoving = false;
         _timeToSwitch = TIME_TO_CHANGE_DIRECTION;
 //        gameObject.SetActive(true);

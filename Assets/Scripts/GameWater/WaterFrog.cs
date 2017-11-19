@@ -6,6 +6,7 @@ public class WaterFrog : MonoBehaviour {
 
     GameWater _manager;
     Sprite _sprite;
+    public bool _active;
 
     const float TIME_TO_CHANGE_DIRECTION = 0.2f;
 
@@ -25,6 +26,8 @@ public class WaterFrog : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         _isMoving = true;
         _manager.ObjectClicked("frog");
 //        _manager.
@@ -32,6 +35,7 @@ public class WaterFrog : MonoBehaviour {
 
     public void Init()
     {
+        _active = true;
         _isMoving = false;
         _timeToSwitch = TIME_TO_CHANGE_DIRECTION;
 //        gameObject.SetActive(true);

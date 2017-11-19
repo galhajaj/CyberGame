@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WaterVail : MonoBehaviour {
 
+    public bool _active;
     public Sprite VailEmpty;
     public Sprite Water;
     public Sprite Blood1;
@@ -47,6 +48,7 @@ public class WaterVail : MonoBehaviour {
 
     public void Init()
     {
+        _active = true;
         _frogs = 0;
         _waterCC = 0;
         _eyes = 0;
@@ -55,6 +57,8 @@ public class WaterVail : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         UpdateState();
         _manager.ObjectClicked("vail");
     }

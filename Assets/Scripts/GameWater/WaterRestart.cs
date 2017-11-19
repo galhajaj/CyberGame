@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class WaterRestart : MonoBehaviour {
 
+    public GameObject Potion;
+    public bool _active;
     WaterVail _vail;
 	// Use this for initialization
 	void Start () {
+        _active = true;
         _vail = transform.parent.Find("Vail").GetComponent<WaterVail>();
 	}
 	
@@ -17,9 +20,14 @@ public class WaterRestart : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         if (_vail.IsSuccess())
         {
             Debug.Log("SUCCESS");
+            _active = false;
+            transform.parent.Find("GameWaterManager").GetComponent<GameWater>().DisableGame();
+            ItemsManager.Instance.AddItem(Potion);
         }
         else
         {

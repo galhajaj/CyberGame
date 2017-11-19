@@ -7,12 +7,14 @@ public class gameNomogram : MonoBehaviour {
     bool _isBlack;
     SpriteRenderer _sprite;
     gameNonogramManager _manager;
+    public bool _active;
     // Use this for initialization
 	void Start () {
         _isBlack = false;
         _sprite = GetComponent<SpriteRenderer>();
 
         _manager = transform.GetComponentInParent<gameNonogramManager>();
+        _active = true;
     }
 	
 	// Update is called once per frame
@@ -22,6 +24,8 @@ public class gameNomogram : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         _isBlack = !_isBlack;
         if(_isBlack)
             _sprite.color = Color.black;

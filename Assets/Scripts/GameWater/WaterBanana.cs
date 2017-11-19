@@ -6,6 +6,8 @@ using UnityEditor.Sprites;
 
 public class WaterBanana : MonoBehaviour {
 
+    public bool _active;
+
     const float TIME_TO_EAT = 3f;
 
     public Sprite FullBanana;
@@ -42,12 +44,15 @@ public class WaterBanana : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         Debug.Log("eat banana");
         _isEaten = true;
     }
 
     public void Init()
     {
+        _active = true;
         _sprite.sprite = FullBanana;
         _timeToEat = TIME_TO_EAT;
         _isEaten = false;

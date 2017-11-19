@@ -19,6 +19,16 @@ public class GameWater : MonoBehaviour {
     bool _is20GlassFull;
     bool _is50GlassFull;
 
+    public void DisableGame()
+    {
+        _frog._active = false;
+        _eyes._active = false;
+        _vail._active = false;
+        _glass20._active = false;
+        _glass50._active = false;
+        _banana._active = false;
+
+    }
 	// Use this for initialization
 	void Start () {
         _frog = transform.parent.Find("Frog").GetComponent<WaterFrog>();

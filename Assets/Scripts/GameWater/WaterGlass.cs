@@ -9,6 +9,7 @@ public class WaterGlass : MonoBehaviour {
     public Sprite FullGlass;
     public Sprite HalfFullGlass;
 
+    public bool _active;
     SpriteRenderer _sprite;
     WaterGlass _otherGlass;
 
@@ -60,17 +61,21 @@ public class WaterGlass : MonoBehaviour {
 
     public void Fill(int cc)
     {
+        Debug.Log("cc before fill - " + cc.ToString());
         _cc += cc;
+        Debug.Log("cc after fill - " + cc.ToString());
         if (_cc > GlassSize)
         {
             _cc = GlassSize;
         }
+        Debug.Log("cc final - " + cc.ToString());
 
         SetSprite();
     }
 
     public void Init()
     {
+        _active = true;
         _isMoving = false;
         _timeToSwitch = TIME_TO_CHANGE_DIRECTION;
         _cc = 0;
@@ -87,6 +92,8 @@ public class WaterGlass : MonoBehaviour {
 
     void OnMouseDown()
     {
+        if (!_active)
+            return;
         string name = "glass" + GlassSize.ToString();
 
         if(!_otherGlass._isMoving)
@@ -117,8 +124,10 @@ public class WaterGlass : MonoBehaviour {
         
     public void ObjectWasClicked(string newObject)
     {
+        Debug.Log("newObj1 " + newObject);
         if (!_isMoving)
             return;
+        Debug.Log("newObj2 " + newObject);
         if (newObject == "tap")
         {
             Fill(GlassSize);
