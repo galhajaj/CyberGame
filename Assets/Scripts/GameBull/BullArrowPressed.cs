@@ -6,10 +6,7 @@ public class BullArrowPressed : MonoBehaviour {
     public bool IsUp;
 	// Use this for initialization
 	void Start () {
-<<<<<<< HEAD
         Physics2D.queriesHitTriggers = true;
-=======
->>>>>>> parent of 76010bb... added games to gamescene
 	}
 	
 	// Update is called once per frame

@@ -900,19 +900,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 692207018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: -3, y: 4.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-=======
-  m_LocalPosition: {x: 5.008335, y: 2.63814, z: 0.016430896}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1786474345}
-  m_RootOrder: 4
->>>>>>> parent of 76010bb... added games to gamescene
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &692207020
 MonoBehaviour:
@@ -1028,13 +1020,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 788238415}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-=======
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.008335, y: -1.5618598, z: 0.016430896}
->>>>>>> parent of 76010bb... added games to gamescene
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1243408720}
@@ -1042,13 +1029,8 @@ Transform:
   - {fileID: 1715580005}
   - {fileID: 183624478}
   - {fileID: 403615346}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 1
-=======
-  m_Father: {fileID: 1786474345}
-  m_RootOrder: 0
->>>>>>> parent of 76010bb... added games to gamescene
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &788238417
 MonoBehaviour:
@@ -1142,21 +1124,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 847501589}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 475, y: 164, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-=======
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 483.00833, y: 162.43814, z: 0.016430896}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1786474345}
-  m_RootOrder: 1
->>>>>>> parent of 76010bb... added games to gamescene
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1184,21 +1157,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1069786290}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2730024, y: -0.8161738, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-=======
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.281338, y: -2.3780336, z: 0.016430896}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1786474345}
-  m_RootOrder: 3
->>>>>>> parent of 76010bb... added games to gamescene
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1209112933
 GameObject:
@@ -1581,42 +1545,6 @@ Transform:
   m_Father: {fileID: 788238416}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
---- !u!1 &1786474344
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1786474345}
-  m_Layer: 0
-  m_Name: BullGameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1786474345
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1786474344}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.008335, y: 1.5618598, z: -0.016430896}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 788238416}
-  - {fileID: 847501593}
-  - {fileID: 1941735786}
-  - {fileID: 1069786291}
-  - {fileID: 692207019}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 76010bb... added games to gamescene
 --- !u!1 &1806241140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,21 +1743,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1941735783}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-=======
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.008335, y: -1.5618598, z: 0.016430896}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1786474345}
-  m_RootOrder: 2
->>>>>>> parent of 76010bb... added games to gamescene
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2021289397
 GameObject:
