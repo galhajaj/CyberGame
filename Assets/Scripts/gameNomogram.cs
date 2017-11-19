@@ -11,7 +11,8 @@ public class gameNomogram : MonoBehaviour {
 	void Start () {
         _isBlack = false;
         _sprite = GetComponent<SpriteRenderer>();
-        _manager = GameObject.Find("Squares").GetComponent<gameNonogramManager>();
+
+        _manager = transform.GetComponentInParent<gameNonogramManager>();
     }
 	
 	// Update is called once per frame

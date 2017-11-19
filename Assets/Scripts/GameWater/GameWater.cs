@@ -14,19 +14,19 @@ public class GameWater : MonoBehaviour {
     WaterVail _vail;
     WaterGlass _glass20;
     WaterGlass _glass50;
-    WaterBanana _banana = GameObject.Find("Banana").GetComponent<WaterBanana>();
+    WaterBanana _banana;
 
     bool _is20GlassFull;
     bool _is50GlassFull;
 
 	// Use this for initialization
 	void Start () {
-        _frog = GameObject.Find("Frog").GetComponent<WaterFrog>();
-        _eyes = GameObject.Find("Eye").GetComponent<WaterEyes>();
-        _vail = GameObject.Find("Vail").GetComponent<WaterVail>();
-        _glass20 = GameObject.Find("Glass20").GetComponent<WaterGlass>();
-        _glass50 = GameObject.Find("Glass50").GetComponent<WaterGlass>();
-        _banana = GameObject.Find("Banana").GetComponent<WaterBanana>();
+        _frog = transform.parent.Find("Frog").GetComponent<WaterFrog>();
+        _eyes = transform.parent.Find("Eye").GetComponent<WaterEyes>();
+        _vail = transform.parent.Find("Vail").GetComponent<WaterVail>();
+        _glass20 = transform.parent.Find("Glass20").GetComponent<WaterGlass>();
+        _glass50 = transform.parent.Find("Glass50").GetComponent<WaterGlass>();
+        _banana = transform.parent.Find("Banana").GetComponent<WaterBanana>();
 
         _glass20.SetOtherGlass(ref _glass50);
         _glass50.SetOtherGlass(ref _glass20);

@@ -7,7 +7,7 @@ public class WaterRestart : MonoBehaviour {
     WaterVail _vail;
 	// Use this for initialization
 	void Start () {
-        _vail = GameObject.Find("Vail").GetComponent<WaterVail>();
+        _vail = transform.parent.Find("Vail").GetComponent<WaterVail>();
 	}
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class WaterRestart : MonoBehaviour {
         }
         else
         {
-            GameObject.Find("GameWaterManager").GetComponent<GameWater>().RestartScene();    
+            transform.parent.Find("GameWaterManager").GetComponent<GameWater>().RestartScene();    
         }
     }
 }

@@ -34,7 +34,7 @@ public class WaterGlass : MonoBehaviour {
     // Use this for initialization
 	void Start () {
         _sprite = GetComponent<SpriteRenderer>();
-        _manager = GameObject.Find("GameWaterManager").GetComponent<GameWater>();
+        _manager = transform.parent.Find("GameWaterManager").GetComponent<GameWater>();
         Init();
 	}
 	

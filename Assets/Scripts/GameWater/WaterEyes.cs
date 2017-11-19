@@ -13,7 +13,7 @@ public class WaterEyes : MonoBehaviour {
     float _timeToSwitch;
     // Use this for initialization
     void Start () {
-        _manager = GameObject.Find("GameWaterManager").GetComponent<GameWater>();
+        _manager = transform.parent.Find("GameWaterManager").GetComponent<GameWater>();
         _sprite = GetComponent<SpriteRenderer>().sprite;
         Init();
     }

@@ -28,10 +28,10 @@ public class WaterVail : MonoBehaviour {
     WaterGlass _water50;
 	// Use this for initialization
 	void Start () {
-        _manager = GameObject.Find("GameWaterManager").GetComponent<GameWater>();
+        _manager = transform.parent.Find("GameWaterManager").GetComponent<GameWater>();
         _sprite = GetComponent<SpriteRenderer>();
-        _water20 = GameObject.Find("Glass20").GetComponent<WaterGlass>();
-        _water50 = GameObject.Find("Glass50").GetComponent<WaterGlass>();
+        _water20 = transform.parent.Find("Glass20").GetComponent<WaterGlass>();
+        _water50 = transform.parent.Find("Glass50").GetComponent<WaterGlass>();
 
         _vailBlood = transform.Find("Blood").GetComponent<SpriteRenderer>();
         _vailFrog = transform.Find("Frog").GetComponent<SpriteRenderer>();

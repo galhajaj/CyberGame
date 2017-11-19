@@ -14,7 +14,7 @@ public class BullCodePlate : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         RestartGame();
-        _bullResultScript = GameObject.Find("BullResult").GetComponent<BullResultsManager>();
+        _bullResultScript = transform.parent.Find("BullResult").GetComponent<BullResultsManager>();
     }
 	
 	// Update is called once per frame

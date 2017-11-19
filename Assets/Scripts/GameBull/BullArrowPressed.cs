@@ -6,7 +6,6 @@ public class BullArrowPressed : MonoBehaviour {
     public bool IsUp;
 	// Use this for initialization
 	void Start () {
-        Physics2D.queriesHitTriggers = true;
 	}
 	
 	// Update is called once per frame
