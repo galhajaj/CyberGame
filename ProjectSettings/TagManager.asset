@@ -9,6 +9,7 @@ TagManager:
   - Potion
   - Hammer
   - Chest
+  - Lock
   layers:
   - Default
   - TransparentFX

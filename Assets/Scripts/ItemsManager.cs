@@ -27,14 +27,19 @@ public class ItemsManager : MonoBehaviour
     {
 		if (Input.GetMouseButtonDown(1)) // right mouse
         {
-            for (int i = 0; i <this.transform.childCount; ++i)
-            {
-                Transform item = this.transform.GetChild(i);
-                item.GetComponent<Image>().color = Color.white;
-            }
-            CurrentItem = "";
+            UnselectAllItems();
         }
 	}
+
+    public void UnselectAllItems()
+    {
+        for (int i = 0; i < this.transform.childCount; ++i)
+        {
+            Transform item = this.transform.GetChild(i);
+            item.GetComponent<Image>().color = Color.white;
+        }
+        CurrentItem = "";
+    }
 
     public void AddItem(GameObject item)
     {

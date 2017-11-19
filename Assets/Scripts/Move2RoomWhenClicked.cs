@@ -19,6 +19,9 @@ public class Move2RoomWhenClicked : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (ItemsManager.Instance.CurrentItem != "")
+            return;
+
         if (!IsImmediate)
             CameraManager.Instance.MoveToRoom(RoomName);
         else
