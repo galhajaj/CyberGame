@@ -16,6 +16,9 @@ public class gameNomogram : MonoBehaviour {
 =======
 
         _manager = transform.GetComponentInParent<gameNonogramManager>();
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
     }
 	

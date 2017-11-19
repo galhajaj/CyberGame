@@ -113,7 +113,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
 --- !u!1 &59367870
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,6 +155,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
 --- !u!1 &332359012
 GameObject:
@@ -179,15 +185,21 @@ Transform:
   m_GameObject: {fileID: 332359012}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 11.84, y: -2.95, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 19.848335, y: -4.51186, z: 0.016430896}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -366,15 +378,21 @@ Transform:
   m_GameObject: {fileID: 528426372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 3.45, y: 1.52, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 11.458335, y: -0.041859865, z: 0.016430896}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -558,8 +576,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092518020}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.48, y: 2.78, z: 0.0092849005}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.488335, y: 1.2181401, z: 0.025715796}
+>>>>>>> parent of 76010bb... added games to gamescene
 =======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 18.488335, y: 1.2181401, z: 0.025715796}
@@ -570,7 +593,11 @@ Transform:
   - {fileID: 606305122}
   - {fileID: 1949134769}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Father: {fileID: 0}
+=======
+  m_Father: {fileID: 59367871}
+>>>>>>> parent of 76010bb... added games to gamescene
 =======
   m_Father: {fileID: 59367871}
 >>>>>>> parent of 76010bb... added games to gamescene
@@ -631,15 +658,21 @@ Transform:
   m_GameObject: {fileID: 1154907832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -6.31, y: -2.48, z: 0.009284973}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 1.6983352, y: -4.0418596, z: 0.025715869}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -785,17 +818,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1278618596}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.38, y: 1.79, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.371665, y: 0.22814012, z: 0.016430896}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -932,15 +971,21 @@ Transform:
   m_GameObject: {fileID: 1678588517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -4.28, y: 2.05, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 3.728335, y: 0.4881401, z: 0.016430896}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1052,15 +1097,21 @@ Transform:
   m_GameObject: {fileID: 1708929646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -6.75, y: -1.57, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 1.2583351, y: -3.1318598, z: 0.016430896}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1159,15 +1210,21 @@ Transform:
   m_GameObject: {fileID: 1737115132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 5.81, y: -2.61, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 13.818335, y: -4.1718597, z: 0.016430896}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1333,17 +1390,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2056305166}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 8.008335, y: -1.5618598, z: -9.983569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1429,15 +1492,21 @@ Transform:
   m_GameObject: {fileID: 2147458943}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -1.83, y: -3.09, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 0}
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
   m_LocalPosition: {x: 6.178335, y: -4.6518598, z: 0.016430896}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_Children: []
   m_Father: {fileID: 59367871}
+<<<<<<< HEAD
+>>>>>>> parent of 76010bb... added games to gamescene
+=======
 >>>>>>> parent of 76010bb... added games to gamescene
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

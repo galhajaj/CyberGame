@@ -7,7 +7,10 @@ public class BullArrowPressed : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         Physics2D.queriesHitTriggers = true;
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
 =======
 >>>>>>> parent of 76010bb... added games to gamescene
 	}

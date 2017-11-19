@@ -8,8 +8,11 @@ public class WaterRestart : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 <<<<<<< HEAD
+<<<<<<< HEAD
         _vail = GameObject.Find("Vail").GetComponent<WaterVail>();
 =======
+=======
+>>>>>>> parent of 76010bb... added games to gamescene
         _vail = transform.parent.Find("Vail").GetComponent<WaterVail>();
 >>>>>>> parent of 76010bb... added games to gamescene
 	}
